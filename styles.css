@@ -1,0 +1,41 @@
+body {
+  background-color: #0d1117;
+}
+
+p {
+  color: #0dbf00;
+  font-size: 200%;
+}
+
+.mainDiv {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -ms-transform: translate(-45%, -45%);
+  transform: translate(-45%, -45%);
+}
+
+button {
+  margin: 32px 0 0 64px;
+  padding: 12px 64px;
+  font-size: 150%;
+  background-color: transparent;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #0dbf00;
+  color: #0d1117;
+  border: 1px solid #0dbf00;
+  outline: none;
+}
+
+.button:focus {
+  background-color: transparent;
+  color: #0dbf00;
+  border: 1px solid #0dbf00;
+  outline: none;
+}
